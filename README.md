@@ -9,7 +9,7 @@ Cd dataset;
 Python flow.py//You should modify the input address you need to get the optical flow and the address you want to save the optical flow
 
 Train
-python trainv1.py -e 100 -b 6 -l 0.0001 -w 0.0000001 -t y 
+python trainv1.py -e [EPOCH] -b [BATCH_SIZE] -l 0.0001 -w 0.0000001 -t y 
 
 Test
 python test.py
